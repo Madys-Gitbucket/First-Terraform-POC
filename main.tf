@@ -16,7 +16,6 @@ terraform {
 
 provider "aws" {
   region  = "us-east-1"
-  // we have set secret keys as environment variables 
 }
 
 // syntax to import AWS Lambda to terraform is - 
