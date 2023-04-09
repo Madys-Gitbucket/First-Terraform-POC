@@ -19,7 +19,7 @@ provider "aws" {
 }
 
 // syntax to import AWS Lambda to terraform is - 
-// terraform import resource_type resource_name(local to terraform) function_name assigned in AWS
+// terraform import resource_type resource_name (local to terraform) function_name (assigned in AWS)
 // terraform import aws_lambda_function sample_function serverless-website-lambdafunction
 
 resource "aws_lambda_function" "sample_function" {
